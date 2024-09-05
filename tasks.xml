@@ -1,0 +1,18 @@
+<ArrayList>
+  <item>
+    <title>pet my cat</title>
+    <done>false</done>
+  </item>
+  <item>
+    <title>feed my cat</title>
+    <done>true</done>
+  </item>
+  <item>
+    <title>play with my cat</title>
+    <done>true</done>
+  </item>
+  <item>
+    <title>feed myself</title>
+    <done>false</done>
+  </item>
+</ArrayList>

@@ -1,0 +1,9 @@
+[ {
+  "name" : "Kolea",
+  "age" : 20,
+  "gpa" : "GPA"
+}, {
+  "name" : "Misha",
+  "age" : 15,
+  "gpa" : "GPA"
+} ]
