@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4144465a-b1c5-4db3-94c2-ffe3a2528605" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sem3/HM/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sem3/HM/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sem3/HM/PersonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sem3/HM/Serialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sem3/HM/ServicePerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sem3/Task1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sem3/Task1/UserData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sem3/Task2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sem3/Task2/ToDo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sem3/Task2/ToDoListApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sem3/Task2/ToDoV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sem4/Task1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sem4/Task2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sem4/models/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sem4/models/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sem4/models/StudentsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sem4/models/StudentsRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -29,8 +28,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,6 +51,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-21/lib/src.zip!/java.base/java/lang/Class.java" root0="SKIP_INSPECTION" />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -75,6 +78,8 @@
     "Application.org.Sem2.Task3.Main.executor": "Run",
     "Application.org.Sem3.HM.Main.executor": "Run",
     "Application.org.Sem3.Task2.Main.executor": "Run",
+    "Application.org.Sem4.Task1.Main.executor": "Run",
+    "Docker.StudensDBConfiguration.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -90,9 +95,17 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/sotni/IdeaProjects/JJS/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -100,26 +113,13 @@
       <recent name="org.example.Sem1.Task1" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Sem3.Task1.Main" />
+      <option name="MAIN_CLASS_NAME" value="org.Sem4.Task2.Main" />
       <module name="JJS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Sem3.Task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.Sem2.HM.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Sem2.HM.Main" />
-      <module name="JJS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.Sem2.HM.*" />
+          <option name="PATTERN" value="org.Sem4.Task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.Sem3.Task2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Sem3.Task2.Main" />
+    <configuration name="org.Sem4.Task1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Sem4.Task1.Main" />
       <module name="JJS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Sem3.Task2.*" />
+          <option name="PATTERN" value="org.Sem4.Task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,13 +166,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudensDBConfiguration" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="mysql:latest" />
+          <option name="containerName" value="students-db" />
+          <option name="envVars">
+            <list>
+              <DockerEnvVarImpl>
+                <option name="name" value="MYSQL_DATABASE" />
+                <option name="value" value="studentsDB" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="MYSQL_ROOT_PASSWORD" />
+                <option name="value" value="147" />
+              </DockerEnvVarImpl>
+            </list>
+          </option>
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="3306" />
+                <option name="hostPort" value="3306" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-image" temporary="true">
+      <deployment type="docker-image" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.org.Sem4.Task1.Main" />
+        <item itemvalue="Docker.StudensDBConfiguration" />
         <item itemvalue="Spring Boot.Main" />
         <item itemvalue="Application.org.Sem3.HM.Main" />
-        <item itemvalue="Application.org.Sem3.Task2.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.org.Sem2.HM.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +227,8 @@
       <updated>1724750905177</updated>
       <workItem from="1724750906401" duration="12057000" />
       <workItem from="1724770700792" duration="2468000" />
-      <workItem from="1725455444477" duration="25152000" />
+      <workItem from="1725455444477" duration="26893000" />
+      <workItem from="1725624942944" duration="9233000" />
     </task>
     <servers />
   </component>
