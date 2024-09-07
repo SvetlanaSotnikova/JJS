@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="JJS:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4144465a-b1c5-4db3-94c2-ffe3a2528605" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sem4/Task1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sem4/Task2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sem4/models/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sem4/models/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sem4/models/StudentsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Sem4/models/StudentsRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JJS_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/JJS_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a8c0f2a3-8363-44fc-b586-acd9d5d189fa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a8c0f2a3-8363-44fc-b586-acd9d5d189fa.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Sem4/Task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Sem4/Task1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Sem4/Task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Sem4/Task2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Sem4/models/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Sem4/models/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +54,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-21/lib/src.zip!/java.base/java/lang/Class.java" root0="SKIP_INSPECTION" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -66,48 +69,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Library.executor": "Run",
-    "Application.Library1.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.org.Sem1.HM.Main.executor": "Run",
-    "Application.org.Sem2.HM.Main.executor": "Run",
-    "Application.org.Sem2.Main.executor": "Run",
-    "Application.org.Sem2.Task2.Main.executor": "Run",
-    "Application.org.Sem2.Task3.Main.executor": "Run",
-    "Application.org.Sem3.HM.Main.executor": "Run",
-    "Application.org.Sem3.Task2.Main.executor": "Run",
-    "Application.org.Sem4.Task1.Main.executor": "Run",
-    "Docker.StudensDBConfiguration.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.Main.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/sotni/IdeaProjects/JJS/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Library.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Library1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.Sem1.HM.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.Sem2.HM.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.Sem2.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.Sem2.Task2.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.Sem2.Task3.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.Sem3.HM.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.Sem3.Task2.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.Sem4.Task1.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.Compose.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.StudensDBConfiguration.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Main.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sotni/IdeaProjects/JJS/docker-compose.yml&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/sotni/IdeaProjects/JJS/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.Sem1.Task1" />
@@ -120,19 +126,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.Sem4.Task2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.Sem3.HM.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Sem3.HM.Main" />
-      <module name="JJS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.Sem3.HM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,6 +159,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Compose" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="StudensDBConfiguration" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
       <deployment type="docker-image">
         <settings>
@@ -196,16 +206,32 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-image" temporary="true">
-      <deployment type="docker-image" />
+      <deployment type="docker-image">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.org.Sem4.Task1.Main" />
+      <item itemvalue="Docker.Compose" />
+      <item itemvalue="Docker.Dockerfile" />
+      <item itemvalue="Docker.StudensDBConfiguration" />
+      <item itemvalue="Spring Boot.Main" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.Sem4.Task1.Main" />
+        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Docker.StudensDBConfiguration" />
         <item itemvalue="Spring Boot.Main" />
-        <item itemvalue="Application.org.Sem3.HM.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +254,8 @@
       <workItem from="1724750906401" duration="12057000" />
       <workItem from="1724770700792" duration="2468000" />
       <workItem from="1725455444477" duration="26893000" />
-      <workItem from="1725624942944" duration="9233000" />
+      <workItem from="1725624942944" duration="14524000" />
+      <workItem from="1725698495359" duration="3937000" />
     </task>
     <servers />
   </component>

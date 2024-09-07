@@ -2,7 +2,7 @@
 <dataSource name="studentsDB@localhost">
   <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.52">
     <root id="1">
-      <DefaultCasing>exact</DefaultCasing>
+      <DefaultCasing>mixed/mixed</DefaultCasing>
       <DefaultEngine>InnoDB</DefaultEngine>
       <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
       <Grants>|root||root||ALLOW_NONEXISTENT_DEFINER|G
@@ -1079,8 +1079,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="291" parent="1" name="studentsDB">
-      <Current>1</Current>
-      <LastIntrospectionLocalTimestamp>2024-09-06.13:39:40</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-09-07.09:09:26</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="292" parent="1" name="sys">
@@ -1108,33 +1107,5 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <table id="298" parent="291" name="students">
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </table>
-    <column id="299" parent="298" name="id">
-      <AutoIncrement>6</AutoIncrement>
-      <DasType>int|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="300" parent="298" name="name">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>2</Position>
-    </column>
-    <column id="301" parent="298" name="age">
-      <DasType>int|0s</DasType>
-      <Position>3</Position>
-    </column>
-    <index id="302" parent="298" name="PRIMARY">
-      <ColNames>id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="303" parent="298" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
   </database-model>
 </dataSource>

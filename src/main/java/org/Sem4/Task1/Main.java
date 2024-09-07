@@ -51,10 +51,10 @@ public class Main {
             }
             System.out.println("Read data from database");
 
-            for (var student : students) {
-                deleteData(connection, student.getId());
-            }
-            System.out.println("Delete students into database");
+//            for (var student : students) {
+//                deleteData(connection, student.getId());
+//            }
+//            System.out.println("Delete students into database");
 
         } catch (SQLException e) {
             throw new RuntimeException(e);
